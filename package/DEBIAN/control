@@ -1,0 +1,8 @@
+Package: network-bw-dev
+Version: 1.0.1
+Section: utils
+Priority: optional
+Architecture: arm64
+Depends:
+Description: A simple network bandwidth calculator.
+Maintainer: Ricardo Lu <shenglu1202@163.com>
