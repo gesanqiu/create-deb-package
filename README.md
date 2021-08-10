@@ -1,7 +1,7 @@
 # Network Tx/Rx speed Monitor for LU
 ## 概述
 
-一个基于Ubuntu18.04平台开发的实时监测网卡收发速率应用，通过读取`/proc/net/dev`文件中对应网卡记录，并截取所需字段进行计算返回结果，原repo地址[在这](https://github.com/gesanqiu/Network-Bandwidth-Monitor)。
+一个基于Ubuntu18.04平台开发的实时监测网卡收发速率应用，通过读取`/proc/net/dev`文件中对应网卡记录，并截取所需字段进行计算返回结果，原repo地址[在这](https://github.com/gesanqiu/Network-Bandwidth-Monitor)，相关的教程[CPacke生成deb安装包](https://ricardolu.gitbook.io/trantor/cmake-in-action/cpack-sheng-cheng-deb-an-zhuang-bao)。
 
 - 开发平台：Ubuntu 18.04 aarch64
 - 编译器：Ubuntu/Linaro 7.5.0-3ubuntu1~18.04
