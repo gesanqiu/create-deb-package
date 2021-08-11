@@ -8,22 +8,22 @@
 ### deb包的组成
 
 ```shell
-.
-└── package	# dpkg-deb -b ./ network_bandwidth_cal-1.0.1-Linux.deb
-	└── DEBIAN
-       ├── control
-       ├── postinst		# postinstallation
-       ├── postrm		# postremove
-       ├── preinst		# preinstallation
-       ├── prerm		# preremove
-       ├── copyright	# 版权
-       ├── changlog		# 修订记录
-       └── conffiles
-   └── usr
-        ├── include
-        │   └── netUsageMonitor.h
-        └── lib
-            └── libnetUsageMonitor.so
+ .
+ └── package # dpkg-deb -b ./ network_bandwidth_cal-1.0.1-Linux.deb
+     └── DEBIAN
+         ├── control
+         ├── postinst     # postinstallation
+         ├── postrm       # postremove
+         ├── preinst      # preinstallation
+         ├── prerm        # preremove
+         ├── copyright    # 版权
+         ├── changlog     # 修订记录
+         └── conffiles
+     └── usr
+         ├── include
+         │   └── netUsageMonitor.h
+         └── lib
+             └── libnetUsageMonitor.so
 ```
 
 deb包本身有三部分组成：
